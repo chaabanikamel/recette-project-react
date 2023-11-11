@@ -14,8 +14,9 @@ function Recipe({title,image}) {
       <div className={`${styles.recipeTitle} d-flex flex-column align-items-center justify-content-center`}>
         <h3 className="mb-10">
           {title}
-          </h3>
+      
           <i className={`fa-solid fa-heart ${liked ? "text-primary":" "}`}></i>
+          </h3>
       
       </div>
     </div>
